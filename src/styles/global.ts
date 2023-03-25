@@ -75,7 +75,7 @@ const GlobalStyles: GlobalStyleComponent<
       font-size: ${theme.font.sizes.medium};
 
       ${!removeBg &&
-      css`
+    css`
         background-color: ${theme.colors.mainBg};
       `}
     }
