@@ -1,10 +1,10 @@
 import styled, { css } from 'styled-components'
 
 export const Wrapper = styled.main.attrs({
-    id: 'WrapperButton'    
+    id: 'WrapperInput'    
 })`
 `
-export const Button = styled.label`
+export const Label = styled.label`
     ${({ theme }) => css`
         font-family: ${theme.font.family};
         font-style: normal;
