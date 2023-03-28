@@ -1,3 +1,4 @@
+import { InputHTMLAttributes } from 'react'
 import * as S from './styles'
 
 export type ButtonProps = {
@@ -7,7 +8,7 @@ export type ButtonProps = {
 export default function Button() {
   return (
     <S.Wrapper>
-      <S.Label htmlFor={name}>{Label}</S.Label>
+      <S.Button>{Button}</S.Button>
     </S.Wrapper>
   )
 }

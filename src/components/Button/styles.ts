@@ -4,7 +4,7 @@ export const Wrapper = styled.main.attrs({
     id: 'WrapperInput'    
 })`
 `
-export const Label = styled.label`
+export const Button = styled.button`
     ${({ theme }) => css`
         font-family: ${theme.font.family};
         font-style: normal;
