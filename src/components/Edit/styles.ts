@@ -1,11 +1,11 @@
 import styled, { css } from 'styled-components'
-import { EditProps } from '.'
+import { InputProps } from '.'
 
 export const Wrapper = styled.main.attrs({
     id: 'WrapperButton'    
 })`
 `
-export const Edit = styled.edit`
+export const Label = styled.label`
     ${({ theme }) => css`
         font-family: ${theme.font.family};
         font-style: normal;
@@ -19,7 +19,7 @@ export const Edit = styled.edit`
     `}
 `
 
-export const EditWrapper = styled.div`
+export const InputWrapper = styled.div`
         display: flex;
         flex-direction: row;
         width: fit-content;
@@ -27,7 +27,7 @@ export const EditWrapper = styled.div`
         justify-content: center;
         align-items: center;
 `
-export const Edit = styled.Edit<EditProps>`
+export const Input = styled.input<InputProps>`
     ${({ theme }) => css`
         padding: 20px 16px;
         border: 1px solid ${theme.colors.lightGray};
