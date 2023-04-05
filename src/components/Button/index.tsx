@@ -9,7 +9,7 @@ export type ButtonProps = {
 export default function Button({ children, disabled = false, ...buttonHtmlProps }: ButtonProps) {
   return (
     <S.ButtonWrapper disabled={disabled} {...buttonHtmlProps}>
-      {children}  
+      <S.Content>{children}</S.Content>
     </S.ButtonWrapper>
   )
 }
