@@ -9,3 +9,13 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
 `
+
+export const ImgLogin = styled.img`
+    dispaly: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px;
+    width: 100px;
+    margin: 20px;
+`
