@@ -11,7 +11,7 @@ export const ButtonWrapper = styled.button.attrs({
         font-weight: bold;
         font-size: 16px;
         line-height: 16px;
-        padding: 14px 60px;
+        padding: 15px 110px;
 
         border-radius: 5px;
         cursor: pointer;

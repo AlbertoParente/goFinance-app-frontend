@@ -17,5 +17,5 @@ export const ImgLogin = styled.img`
 
     padding: 10px;
     width: 200px;
-    margin: 20px;
+    margin-bottom: 20px;
 `

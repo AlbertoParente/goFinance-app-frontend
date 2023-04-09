@@ -29,7 +29,7 @@ export const InputWrapper = styled.div`
 `
 export const Input = styled.Input<InputProps>`
     ${({ theme }) => css`
-        padding: 20px 16px;
+        padding: 20px 120px 20px 10px;
         border: 1px solid ${theme.colors.lightGray};
         background: ${theme.colors.white};
         box-sizing: border-box;
